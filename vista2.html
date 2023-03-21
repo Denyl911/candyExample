@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="d-flex justify-content-center">
+    <div class="container-fluid row justify-content-between mt-5 pt-2 pb-2">
+      <div class="col-3 colum-l"></div>
+      <div class="col-5 row justify-content-center">
+        <div class="contenedor-2 px-4">
+          <div class="mt-2 mb-2 px-4">
+            <p><strong>Crear una cuenta</strong></p>
+            <!-- Name input -->
+            <div class="mb-4">
+              <label for="Name">Nombre completo</label>
+              <input type="text" id="Name" class="form-control inputs" />
+            </div>
+            <!-- Email input -->
+            <div class="mb-4">
+              <label for="Email">Dirección de correo</label>
+              <input type="email" id="Email" class="form-control inputs" />
+            </div>
+
+            <!-- Pass input -->
+            <div class="mb-4">
+              <label for="Pass">Contraseña</label>
+              <input type="password" id="Pass" class="form-control inputs" />
+            </div>
+            <!-- Default switch -->
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Aceptar términos y condiciones</label
+              >
+            </div>
+            <div class="text-center">
+              <!-- Submit button -->
+              <button id="createBtn" class="btn btn-lg btn-primary btn-1 mt-2">
+                Crear cuenta
+              </button>
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4 pb-2">
+              <div class="col pb-2">
+                <p class="white-text mt-2">
+                  ¿Ya estas registrado?
+                  <a class="white-text a-1" href="#!"> Ingresa aquí</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 colum-r"></div>
+    </div>
+
+    <script src="js/md5.min.js"></script>
+    <script src="js/fetch/createUser.js"></script>
+  </body>
+</html>

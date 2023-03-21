@@ -1,0 +1,64 @@
+body{
+    background-image: url("../img/BG2.png");
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    
+}
+.card1{
+width: 55vw;
+background: #0064A4;
+border: 10px solid #1D7BBF;
+color: #FFFFFF;
+}
+.btn-primary{
+    background: #489A45;
+    border: 6px solid #74BB44;  
+}
+#Finalizar{
+    padding: 0.5em 3em;
+    color: #FFFFFF;
+    background: #489A45;
+    border: 6px solid #74BB44;
+}
+.btn-true{
+    width: 180px;
+    height: 180px;
+    margin-bottom: -5em;
+    color: #FFFFFF;
+    background: #489A45;
+    border: 10px solid #74BB44;
+    border-radius: 500px;
+}
+
+.btn-true:hover, .btn-true:active, .btn-true:focus-visible{
+    width: 180px;
+    height: 180px;
+    margin-bottom: -5em;
+    color: #131313;
+    font-weight: 900;
+    background: #74BB44;
+    border: 10px solid #489A45;
+    border-radius: 500px;
+}
+
+.btn-false{
+    width: 180px;
+    height: 180px;
+    margin-bottom: -5em;
+    color: #FFFFFF;
+    background: #B11F24;
+    border: 10px solid #C64E58;
+    border-radius: 500px;   
+}
+
+.btn-false:hover, .btn-false:active, .btn-false:focus-visible{
+    width: 180px;
+    height: 180px;
+    margin-bottom: -5em;
+    color: #131313;
+    font-weight: 900;
+    background: #C64E58;
+    border: 10px solid #B11F24;
+    border-radius: 500px;   
+}

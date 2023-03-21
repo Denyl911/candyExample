@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="d-flex justify-content-center">
+    <div class="container-fluid row justify-content-between mt-5 pt-2 pb-2">
+      <div class="col-3 colum-l"></div>
+      <div class="col-5 row justify-content-center">
+        <div class="contenedor-1 px-4">
+          <div class="mt-2 px-4">
+            <p><strong>Registrar ticket</strong></p>
+            <!-- Tienda input -->
+            <div class="mb-2">
+              <label for="Tienda">Tienda *</label>
+              <select
+                class="form-select inputs-select"
+                id="Tienda"
+                aria-label="Default select example"
+              >
+                <option selected>Seleccionar</option>
+                <option value="Uno">Uno</option>
+                <option value="Dos">Dos</option>
+                <option value="Tres">Tres</option>
+              </select>
+            </div>
+            <div class="mb-2"></div>
+            <!-- Donde input -->
+            <div class="mb-2">
+              <label for="Donde">Dónde realizaste tu compra</label>
+              <input type="text" id="Donde" class="form-control inputs" />
+            </div>
+            <!-- Monto input -->
+            <div class="mb-2">
+              <label for="Monto">Monto total de compra *</label>
+              <input
+                type="text"
+                id="Monto"
+                placeholder="$ 0,000.00"
+                class="form-control inputs"
+              />
+            </div>
+            <div class="d-flex justify-content-end text-end">
+              <small>
+                <a class="a-1" href="#"><small> Casilla obligatoria </small></a>
+              </small>
+            </div>
+            <!-- Metodo input -->
+            <div class="mb-2">
+              <label for="Metodo">Método de pago *</label>
+              <select
+                class="form-select inputs-select"
+                id="Metodo"
+                aria-label="Default select example"
+              >
+                <option selected>Seleccionar</option>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Crédito">Crédito</option>
+                <option value="TDC Casa">TDC Casa</option>
+              </select>
+            </div>
+            <!-- Codigo1 input -->
+            <div class="mb-2">
+              <label for="Codigo1">Código de facturación *</label>
+              <input type="text" id="Codigo1" class="form-control inputs" />
+            </div>
+            <!-- Codigo2 input -->
+            <div class="mb-2">
+              <label for="Codigo2">Código de facturación (Repetir) *</label>
+              <input type="text" id="Codigo2" class="form-control inputs" />
+            </div>
+
+            <div class="text-center">
+              <!-- Submit button -->
+              <button id="createBtn" class="btn btn-lg btn-primary btn-1 mt-2">
+                Registrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 colum-r"></div>
+    </div>
+
+    <script src="js/fetch/registerTicket.js"></script>
+  </body>
+</html>

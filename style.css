@@ -1,0 +1,109 @@
+
+.contenedor-2{
+    width: 90% !important;
+height: 85vh;
+color: #ffffff;
+padding: 3em 1em;
+background: linear-gradient(180deg, #612166 0%, #662C6C 27.95%, #894A7F 51.25%, #B8598F 76.96%, #CA3D91 88.33%, #ED169C 100%);
+border-radius: 47px;
+}
+.contenedor-1{
+    width: 90% !important;
+height: auto;
+color: #ffffff;
+padding: 3em 1em;
+background: linear-gradient(180deg, #612166 0%, #662C6C 27.95%, #894A7F 51.25%, #B8598F 76.96%, #CA3D91 88.33%, #ED169C 100%);
+border-radius: 47px;
+}
+.colum-l{
+    background-image: url(FloresIZQ.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.colum-r{
+    background-image: url(FloresDER.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.inputs{
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    background: linear-gradient(90.05deg, rgba(236, 120, 172, 0.4) 1.62%, rgba(247, 196, 172, 0.4) 98.64%);
+    border-radius: 12px;
+    border: 3px;
+    border-color: linear-gradient(90.05deg, rgba(236, 120, 172, 1)
+    1.62%, rgba(247, 196, 172, 1) 98.64%);
+
+}
+.inputs-select{
+    color:  rgba(75, 2, 35, 0.4) !important;
+    background-color: transparent !important;
+    background: linear-gradient(90.05deg, rgba(236, 120, 172, 0.4) 1.62%, rgba(247, 196, 172, 0.4) 98.64%) !important;
+    border-radius: 12px;
+    border: 3px;
+    border-color: linear-gradient(90.05deg, rgba(236, 120, 172, 1)
+    1.62%, rgba(247, 196, 172, 1) 98.64%);
+
+}
+.btn-1{
+    background: linear-gradient(90deg, #FC8CBA 0%, #F7C4AC 100%) !important;
+    box-shadow: none !important;
+    font-size: 1.1em !important;
+    border-radius: 12px !important;
+}
+.a-1{
+    color: #FFFFFF !important;
+}
+.form-switch .form-check-input::before{
+    box-shadow: none !important;
+} 
+.form-switch .form-check-input:after {
+    border-radius: 50%;
+    width: 1rem !important;
+    height: 1rem !important;
+    background-color: #fff !important;
+    margin-top: .12rem !important;
+    margin-left: .1em;
+    margin-right: .1em;
+    box-shadow: none !important;
+}
+.form-switch .form-check-input:hover{
+    box-shadow: none !important;
+}
+.form-switch .form-check-input:active{
+    box-shadow: none !important;
+}
+.form-switch .form-check-input {
+   box-shadow: none !important;
+   width: 2.21rem !important;
+    height: 1.2rem !important;
+   border-radius: 50px !important;
+background:linear-gradient(90deg, #E9699E 0%, #E37D99 100%) !important;
+    margin-top: 0.12em !important;
+    margin-right: 10px !important;
+    padding-right: 2px !important;
+}
+
+.form-check-input[type=checkbox] {
+    background: linear-gradient(90deg, #D7669A 0%, #CE7B97 100%);
+}
+.form-check-input[type=checkbox]:checked {
+    background: linear-gradient(90deg, #D7669A 0%, #CE7B97 100%) !important;
+    background-image: none;
+    background-color: #6a1f6f65 !important;
+    border: #320435 !important;
+}
+.result{
+    height: 5em;
+    background: linear-gradient(90.05deg, rgba(236, 120, 172, 0.4) 1.62%, rgba(247, 196, 172, 0.4) 98.64%);
+border-radius: 12px;
+border: 2px solid;
+border-color: rgba(248, 175, 180, 1);
+}
+
+input::placeholder {
+    
+    color: rgba(255, 255, 255, 0.603) !important;
+}

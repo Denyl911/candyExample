@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="d-flex justify-content-center">
+    <div class="container-fluid row justify-content-between mt-5 pt-2 pb-2">
+      <div class="col-3 colum-l"></div>
+      <div class="col-5 row justify-content-center">
+        <div class="contenedor-2 px-3">
+          <div class="mt-4 mb-2 px-3">
+            <p><strong>Ingresa con tu cuenta</strong></p>
+            <!-- Email input -->
+            <div class="mb-4">
+              <label for="Email"><strong>Dirección de correo</strong> </label>
+              <input type="email" id="Email" class="form-control inputs" />
+            </div>
+
+            <!-- Pass input -->
+            <div class="mb-4">
+              <label for="Pass"><strong>Contraseña</strong></label>
+              <input type="password" id="Pass" class="form-control inputs" />
+            </div>
+            <!-- Default checkbox -->
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="Recuerdame"
+              />
+              <label class="form-check-label" for="Recuerdame"
+                ><strong>Recuerdame</strong></label
+              >
+            </div>
+            <div class="justify-content-end text-right">
+              <p class="text-end"><strong>Olvide mi contraseña</strong></p>
+            </div>
+            <div class="text-center">
+              <!-- Submit button -->
+              <button id="loginBtn" class="btn btn-lg btn-primary btn-1 mt-4">
+                <strong>Entrar</strong>
+              </button>
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4 pb-2">
+              <div class="col pb-2">
+                <p class="white-text mt-2">
+                  <strong>
+                    ¿Ya estas registrado?
+                    <a class="white-text a-1" href="#!">
+                      Ingresa aquí</a
+                    ></strong
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 colum-r"></div>
+    </div>
+
+    <script src="js/fetch/login.js"></script>
+  </body>
+</html>
